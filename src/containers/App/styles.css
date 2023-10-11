@@ -1,0 +1,63 @@
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+}
+
+*[class^="flex"] {
+  display: flex;
+}
+
+*[class^="flex"].grow-1 {
+  flex-grow: 1;
+}
+
+*[class^="flex"].row {
+  flex-direction: row;
+}
+
+*[class^="flex"].column {
+  flex-direction: column;
+}
+
+*[class^="flex"].gap-2 {
+  gap: 4px;
+}
+
+*[class^="flex"].align-start {
+  align-items: flex-start;
+}
+
+*[class^="flex"].align-center {
+  align-items: center;
+}
+
+*[class^="flex"].justify-between {
+  justify-content: space-between;
+}
+
+.px-8 {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.ml-auto {
+  margin-left: auto;
+}
+
+.error-text {
+  color: #ff0000;
+}
+
+.noresize {
+  resize: none;
+}
